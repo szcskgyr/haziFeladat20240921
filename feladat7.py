@@ -3,9 +3,9 @@
 
 import math
 
-szam1 = float(input("Adj meg egy pozitív valós számot!"))
+szam1 = float(input("Adj meg egy valós számot!"))
 
 if szam1 >= 0:
     print("A szám négyzetgyöke:", str(math.sqrt(szam1)))
 else:
-    print("Hiba: a szám nem pozitív!")
+    print("Hiba: negatív számból nem lehet négyzetgyököt vonni!")
